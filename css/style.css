@@ -2,6 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-.active-link {
+.active-color {
     color: #ef6a4c;
+}
+
+.active-background {
+    background: #ef6a4c;
+}
+
+.f-bg {
+    background: #232323;
+}
+
+.s-bg {
+    background: #1f1f1f;
+}
+
+.sec-1 {
+    height: 600px;
+}
+
+.img-br {
+    border-color: #ef6a4c;
+}
+
+.services > div {
+    flex-basis: 33%;
 }
